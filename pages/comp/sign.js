@@ -77,8 +77,7 @@ export default function Login() {
       /^(?!.*\s)(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[~`!@#$%^&*()--+={}\[\]|\\:;"'<>,.?/_₹]).{10,16}$/;
     if (!regex.test(p)) {
       setErr({
-        error:
-          "password should contain atleast one number and one special character",
+        error: "нууц үг багадаа 1 тоо, 1 тусгай тэмдэгт агуулсан байна.",
       });
 
       return false;
